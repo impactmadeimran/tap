@@ -28,7 +28,7 @@ nav{
 .nav-links{
 display: flex;
 list-style-type: none;
-width: 30%;
+width: 50%;
 height: 100%;
 justify-content: space-around;
 align-items: center;
@@ -136,6 +136,7 @@ li a{
   max-width: 100vw;
   
 }
+
 .details{
   position: absolute;
   height: 80vh;
@@ -147,6 +148,11 @@ li a{
 }
 .details-1{
   position: relative;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 528px 750px ; /*Make the grid smaller than the container*/
+  grid-gap: 50px;
+  padding: 10px;
   height: 100vh;
   width: 90%;
   border-radius: 0px;
@@ -154,27 +160,26 @@ li a{
   margin-bottom: 200px;
   border-bottom: 1px solid #577575;
 }
-.side-text{
-  position: absolute;
-  height: 140px;
+ .side-text{
+   padding-top: 50px;
   width: 528px;
   left: 71px;
   top: 70px;
-  font-size: 50px;
+  font-size: 48px;
   color: black;
-  text-align: center;
-}
+  
+} 
 .get-started{
-  position: absolute;
-  height: 65px;
+  position: relative;
+  height: 45px;
   width: 265px;
-  left: 200px;
-  top: 450px;
+  left: 10px;
+  top: 70px;
   background:#5CD0D6;
-  font-size: 30px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 700;
-  padding-top: 15px;
+  padding: 15px;
   letter-spacing: 0.3959999978542328px;
   text-align: center;
   border-radius: 10px;
@@ -257,9 +262,9 @@ h2{
   color: #5CD0D6;
 }
 .image-1{
-  margin-left: 50%;
+  margin-left: 10%;
   height: 550px;
   width: 700px;
   padding-top: 30px;
-  
+   
 }

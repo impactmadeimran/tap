@@ -9,6 +9,8 @@ const TapNav = () => {
             </div>
             <nav>
                 <ul className = 'nav-links'>
+                    <li><Link to = '/taplogin'>WHY US?  </Link></li>
+                    <li><Link to = '/taplogin'>ABOUT  </Link></li>
                     <li><Link to = '/taplogin'>LOGIN <CgLogIn /> </Link></li>
                     <li><Link to = '/tapsignup'>SIGN UP</Link></li>
                     <li><Link to = '/chat'>DOWNLOAD <BsCloudDownload /> </Link></li>
