@@ -1,7 +1,6 @@
 import React  from 'react'
 import { Link } from 'react-router-dom'
-import desktop from './images/desktop.jpg'
-
+import elipse5 from './images/Ellipse 5.jpg'
 
 const Getstarted = () => {
     return (
@@ -18,9 +17,7 @@ const Getstarted = () => {
             </div>  
 
             <div>
-               <img className = 'image-1' src = {desktop} alt = 'Just a pic'>
-
-               </img>
+               <img className = 'image-1' src = {elipse5} alt = 'Just a pic' />
             </div>
             
             

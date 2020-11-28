@@ -15,7 +15,7 @@ const TapNav = () => {
                     <li><Link to = '/tapabout'>ABOUT  </Link></li>
                     <li><Link to = '/taplogin'>LOGIN <CgLogIn /> </Link></li>
                     <li><Link to = '/tapsignup'>SIGN UP</Link></li>
-                    <li><Link >DOWNLOAD <BsCloudDownload /> </Link></li>
+                    <li><Link to = '/' >DOWNLOAD <BsCloudDownload /> </Link></li>
 
                 </ul>
             </nav> 

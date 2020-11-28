@@ -1,4 +1,6 @@
 import React , {useState , useEffect} from 'react'
+import Footer from './Footer';
+import TapNav from './TapNav';
 
 const TapSignup = () => {
     const [Email, setEmail] = useState('');
@@ -11,6 +13,7 @@ const TapSignup = () => {
     })
     return (
     <div>
+        <TapNav />
          <div className='tapform'>
             <h1>GET STARTED</h1>
             <form align='center'>
@@ -26,6 +29,7 @@ const TapSignup = () => {
                 <input className='submit' type='submit' value='Create Account' />
             </form>
         </div>
+        <Footer />
     </div>
        
     )

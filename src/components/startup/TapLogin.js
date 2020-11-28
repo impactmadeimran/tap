@@ -1,5 +1,7 @@
 import React , {useState , useEffect } from 'react'
 import {Link } from 'react-router-dom'
+import Footer from './Footer';
+import TapNav from './TapNav';
 
 const TapLogin = () => {
     const [Username, setUsername] = useState('');
@@ -13,6 +15,7 @@ const TapLogin = () => {
 
     return (
     <div>    
+        <TapNav />
         <div className = 'tapform'>
             <h1>LOGIN</h1>
             <h4>Welcome {Username} !</h4>
@@ -34,6 +37,7 @@ const TapLogin = () => {
                 
             </form>
         </div>
+        <Footer />
     </div>   
     )
 }
