@@ -7,11 +7,15 @@ body {
   -moz-osx-font-smoothing: grayscale;
   margin: auto;
   overflow-x: hidden;
+  
 }
 /* ::-webkit-scrollbar {
   display: none;
 } */
-
+.root{
+  height: 100vh;
+  width: 100vw;
+}
 * {
   margin: 0;
   padding: 0;
@@ -21,10 +25,7 @@ body {
   vertical-align: baseline;
   background: transparent;
 }
-.App{
-  height: 100vh;
-  width: 100vw;
-}
+
 nav{
   height: 15vh;
   overflow: hidden;

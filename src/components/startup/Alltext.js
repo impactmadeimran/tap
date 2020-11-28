@@ -1,11 +1,8 @@
 import React from 'react'
-import Footer from './Footer'
-import TapNav from './TapNav'
 
 const Alltext = () => {
     return (
         <div>
-            <TapNav />
         <div className = 'tap-main'>
            <div className = 'details'>
                 <div className = 'card-1'>
@@ -29,7 +26,6 @@ const Alltext = () => {
            </div>
            
         </div>
-        <Footer />
         </div>
     )
 }

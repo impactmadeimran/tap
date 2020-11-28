@@ -3,12 +3,9 @@ import github from './images/github.jpg'
 import dropbox from './images/dropbox.jpg'
 import  drive from './images/drive.jpg'
 import zoom from './images/zoom.jpg'
-import TapNav from './TapNav'
-import Footer from './Footer'
 const Workwith = () => {
     return (
         <div>
-            <TapNav />
             <div className = 'details-2'>
                 <div className = 'social-icons'>
                     <div>
@@ -31,7 +28,6 @@ const Workwith = () => {
                     <p>With our easy to use chat app , communication has never been easier. Enjoy talking with anyone around the world anonymously.</p>
                 </div>
             </div>
-            <Footer />
         </div>
     )
 }
